@@ -393,6 +393,10 @@
     [
       "27e9da7b-3bfa-4574-a980-93f02fcd8fa2",
       "ESP32-C6FH4"
+    ],
+    [
+      "1072de81-ddaf-4115-9b1e-8b480e2a0117",
+      "BNO085"
     ]
   ],
   "text_variables": {}

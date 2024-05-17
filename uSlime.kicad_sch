@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 104.14 81.28)
+		(size 39.37 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1072de81-ddaf-4115-9b1e-8b480e2a0117")
+		(property "Sheetname" "BNO085"
+			(at 104.14 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BNO085.kicad_sch"
+			(at 104.14 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "uSlime"
+				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 129.54 21.59)
 		(size 54.61 43.18)
 		(fields_autoplaced yes)
