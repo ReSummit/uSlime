@@ -5,6 +5,28 @@
 	(uuid "f32c1c49-f803-4e7c-a530-6db148a7ba36")
 	(paper "A4")
 	(lib_symbols)
+	(global_label "V+"
+		(shape input)
+		(at 157.48 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b443140a-3698-4764-bc6f-a05dea20b520")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.1262 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(sheet
 		(at 104.14 81.28)
 		(size 39.37 22.86)
