@@ -177,7 +177,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.254,
+        0.381
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -461,8 +463,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.3,
+        "via_drill": 0.1,
         "wire_width": 6
       }
     ],
