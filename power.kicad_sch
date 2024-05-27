@@ -2628,7 +2628,7 @@
 			)
 		)
 	)
-	(global_label "batSens"
+	(global_label "BatSense"
 		(shape input)
 		(at 58.42 36.83 90)
 		(fields_autoplaced yes)
@@ -2640,7 +2640,7 @@
 		)
 		(uuid "578d10f7-4575-4c2f-8e26-50bb83b6ce6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.42 26.3459 90)
+			(at 58.42 25.1363 90)
 			(effects
 				(font
 					(size 1.27 1.27)
