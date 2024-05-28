@@ -2866,7 +2866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f253729-2616-4e82-a13c-339be7ec9262")
-		(property "Reference" "RESET1"
+		(property "Reference" "RESET"
 			(at 159.004 112.014 90)
 			(effects
 				(font
@@ -2920,7 +2920,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/27e9da7b-3bfa-4574-a980-93f02fcd8fa2"
-					(reference "RESET1")
+					(reference "RESET")
 					(unit 1)
 				)
 			)
@@ -3339,7 +3339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "751a2da4-d712-4b6b-b637-57f28c1774a2")
-		(property "Reference" "STAT1"
+		(property "Reference" "STAT"
 			(at 146.304 114.046 0)
 			(effects
 				(font
@@ -3393,7 +3393,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/27e9da7b-3bfa-4574-a980-93f02fcd8fa2"
-					(reference "STAT1")
+					(reference "STAT")
 					(unit 1)
 				)
 			)

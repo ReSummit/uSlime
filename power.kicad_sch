@@ -3295,7 +3295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15266ad7-0d13-40f8-8e38-890e89bbefe6")
-		(property "Reference" "CHRG1"
+		(property "Reference" "CHRG"
 			(at 145.542 82.296 90)
 			(effects
 				(font
@@ -3349,7 +3349,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
-					(reference "CHRG1")
+					(reference "CHRG")
 					(unit 1)
 				)
 			)
