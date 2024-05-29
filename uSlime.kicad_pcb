@@ -5679,7 +5679,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 1.7 0 -90)
+			(at 0 -1 -90)
 			(layer "F.SilkS")
 			(uuid "969e24b1-4ef1-45aa-926a-e1c5cc7263db")
 			(effects
@@ -11329,7 +11329,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "Cmts.User")
+		(layer "Dwgs.User")
 		(uuid "bee3a086-0165-48a8-af69-a1a87eca0506")
 	)
 	(gr_line
@@ -11443,6 +11443,39 @@
 	)
 	(dimension
 		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "4f017a3f-6881-427a-800d-37767df1b158")
+		(pts
+			(xy 102.9 93.55) (xy 102.9 99.05)
+		)
+		(height 3.65)
+		(gr_text "5.5000 mm"
+			(at 98.1 96.3 90)
+			(layer "Dwgs.User")
+			(uuid "4f017a3f-6881-427a-800d-37767df1b158")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
 		(layer "Cmts.User")
 		(uuid "1d7254bc-edf1-4709-8827-ea1cf79f702f")
 		(pts
@@ -11507,39 +11540,6 @@
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 		)
-	)
-	(dimension
-		(type aligned)
-		(layer "Cmts.User")
-		(uuid "4f017a3f-6881-427a-800d-37767df1b158")
-		(pts
-			(xy 102.9 93.55) (xy 102.9 99.05)
-		)
-		(height 3.65)
-		(gr_text "5.5000 mm"
-			(at 98.1 96.3 90)
-			(layer "Cmts.User")
-			(uuid "4f017a3f-6881-427a-800d-37767df1b158")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 2)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(dimension
 		(type aligned)
