@@ -1655,7 +1655,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1uF"
 			(at 105.41 92.71 90)
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1uF"
 			(at 102.87 69.85 90)
 			(effects
 				(font

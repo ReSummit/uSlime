@@ -2359,6 +2359,12 @@
 		(uuid "831a171b-8155-4b46-b740-a80e8606f018")
 	)
 	(junction
+		(at 166.37 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98463656-0f93-40f0-98e8-319eb920f509")
+	)
+	(junction
 		(at 201.93 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2638,6 +2644,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 118.11) (xy 166.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7322a48d-dd7f-491e-992c-b16fd38c75cb")
+	)
+	(wire
+		(pts
 			(xy 152.4 87.63) (xy 156.21 87.63)
 		)
 		(stroke
@@ -2655,6 +2671,16 @@
 			(type default)
 		)
 		(uuid "796de4d5-7d64-4473-b939-dc7ebbe1bd73")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 168.91 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7b140ca5-9b4d-4ab4-9345-c12735b4065a")
 	)
 	(wire
 		(pts
@@ -3174,7 +3200,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 166.37 118.11 0)
+		(at 168.91 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3184,7 +3210,7 @@
 		)
 		(uuid "fef6b8d9-c123-4cd6-83bb-f8f88aa501ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2538 118.11 0)
+			(at 176.7938 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,6 +4246,72 @@
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uSlime:TestPoint")
+		(at 166.37 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "754ae677-3336-4069-90fc-4a66ae215108")
+		(property "Reference" "TP7"
+			(at 164.592 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 164.084 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "472df01d-a6f3-428a-9a75-3988c68c8ab4")
+		)
+		(instances
+			(project "uSlime"
+				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
