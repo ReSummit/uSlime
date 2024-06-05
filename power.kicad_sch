@@ -1245,7 +1245,7 @@
 					)
 				)
 				(circle
-					(center 0 -3.556)
+					(center 0 -3.81)
 					(radius 0.9158)
 					(stroke
 						(width 0.254)
@@ -1268,7 +1268,7 @@
 					)
 				)
 				(circle
-					(center 0 3.556)
+					(center 0 3.81)
 					(radius 0.9158)
 					(stroke
 						(width 0.254)
@@ -1297,7 +1297,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 2.54 -3.556 180)
+					(at 2.54 -3.81 180)
 					(length 2.54)
 					(name "L1"
 						(effects
@@ -1315,7 +1315,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 2.54 3.556 180)
+					(at 2.54 3.81 180)
 					(length 2.54)
 					(name "L2"
 						(effects
@@ -2341,7 +2341,7 @@
 		(uuid "831a171b-8155-4b46-b740-a80e8606f018")
 	)
 	(junction
-		(at 67.31 46.99)
+		(at 67.31 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89fec5fa-9786-4a1c-be90-ebcff8160819")
@@ -2376,6 +2376,10 @@
 		(color 0 0 0 0)
 		(uuid "fab6da95-ff50-422c-9af7-51d349d62caf")
 	)
+	(no_connect
+		(at 55.88 44.45)
+		(uuid "7ea9caa0-e62f-4a6d-a7fb-187badf5f79e")
+	)
 	(wire
 		(pts
 			(xy 67.31 27.94) (xy 45.72 27.94)
@@ -2388,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 46.99) (xy 67.31 46.99)
+			(xy 59.69 49.53) (xy 67.31 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2608,6 +2612,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 44.45) (xy 57.15 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f32030c-730e-4d6b-8798-add0fc0e181b")
+	)
+	(wire
+		(pts
 			(xy 67.31 77.47) (xy 67.31 82.55)
 		)
 		(stroke
@@ -2728,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 40.64) (xy 67.31 46.99)
+			(xy 67.31 40.64) (xy 67.31 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2808,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 46.99) (xy 67.31 67.31)
+			(xy 67.31 49.53) (xy 67.31 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2888,7 +2902,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 46.99) (xy 45.72 46.99)
+			(xy 52.07 49.53) (xy 45.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3030,31 +3044,9 @@
 			)
 		)
 	)
-	(global_label "VBAT"
-		(shape input)
-		(at 67.31 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2b187bde-e695-4018-80ea-c118d7fa5735")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.91 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BatSense"
 		(shape input)
-		(at 45.72 46.99 180)
+		(at 45.72 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3064,7 +3056,29 @@
 		)
 		(uuid "578d10f7-4575-4c2f-8e26-50bb83b6ce6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.0263 46.99 0)
+			(at 34.0263 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 45.72 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5814e4f8-8e49-4514-8245-daed1961cfd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.32 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3515,16 +3529,15 @@
 	)
 	(symbol
 		(lib_id "uSlime:R_US")
-		(at 55.88 46.99 270)
+		(at 55.88 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4a1a1df7-590d-4acd-b417-38fe5a3cd25f")
 		(property "Reference" "R3"
-			(at 55.88 53.34 90)
+			(at 55.88 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3545,7 @@
 			)
 		)
 		(property "Value" "180k"
-			(at 55.88 50.8 90)
+			(at 55.88 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +3553,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 55.626 48.006 90)
+			(at 55.626 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3562,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 46.99 0)
+			(at 55.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3571,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 55.88 46.99 0)
+			(at 55.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

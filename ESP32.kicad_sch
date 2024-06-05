@@ -3499,8 +3499,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "100KOHM-0603-1/10W-1%"
-			(at 179.832 93.472 90)
+		(property "Value" "100k"
+			(at 182.372 101.6 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4174,8 +4174,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "100KOHM-0402T-1/16W-1%"
-			(at 143.002 49.784 90)
+		(property "Value" "100k"
+			(at 141.478 64.77 90)
 			(effects
 				(font
 					(size 1.778 1.778)
