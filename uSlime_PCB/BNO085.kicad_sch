@@ -244,7 +244,7 @@
 					)
 				)
 			)
-			(property "Footprint" "uSlime-libs:LGA28_5.2X3.8_CEV"
+			(property "Footprint" "uSlime-libs:BNO080"
 				(at 13.97 0 0)
 				(effects
 					(font
@@ -1178,10 +1178,6 @@
 		(uuid "23fbd261-3120-4ee1-9ec8-d5fcfdab06b2")
 	)
 	(no_connect
-		(at 160.02 105.41)
-		(uuid "30551af1-95cd-4262-b78e-b15820f67382")
-	)
-	(no_connect
 		(at 160.02 82.55)
 		(uuid "31efc91b-3f45-4b21-924e-248855b3501a")
 	)
@@ -1408,6 +1404,16 @@
 			(type default)
 		)
 		(uuid "c0217274-cec8-4ce7-9284-335eaf2ab25d")
+	)
+	(wire
+		(pts
+			(xy 162.56 105.41) (xy 160.02 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c653bb1a-d962-4790-ac8e-f622340d0372")
 	)
 	(wire
 		(pts
@@ -2062,7 +2068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "uSlime-libs:LGA28_5.2X3.8_CEV"
+		(property "Footprint" "uSlime-libs:BNO080"
 			(at 115.57 77.47 0)
 			(effects
 				(font
@@ -2267,6 +2273,73 @@
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccd82cca-5f64-43b3-8060-1e247f2a7763")
+		(property "Reference" "#PWR013"
+			(at 168.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5609d81-6753-421f-9660-c9b999b8a288")
+		)
+		(instances
+			(project "uSlime"
+				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

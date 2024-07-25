@@ -304,7 +304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "uSlime-libs:LGA28_5.2X3.8_CEV"
+		(property "Footprint" "uSlime-libs:BNO080"
 			(at 13.97 0 0)
 			(effects
 				(font
