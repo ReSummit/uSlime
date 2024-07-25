@@ -12534,6 +12534,18 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "v0.0.1a"
+		(at 113.55 91.25 0)
+		(layer "B.SilkS")
+		(uuid "d7042a88-4275-4e60-b3d9-0b51a47ab5ce")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "SDA"
 		(at 120.1 91.2 0)
 		(layer "B.SilkS")
