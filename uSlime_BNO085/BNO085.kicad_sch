@@ -1543,6 +1543,12 @@
 		(uuid "42672713-176c-43f5-ad1d-acb0451378cf")
 	)
 	(junction
+		(at 113.03 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54ff90cb-3161-45a1-b1ef-4fc47b2fd163")
+	)
+	(junction
 		(at 110.49 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1780,6 +1786,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 90.17) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75191022-c85f-40f0-aa26-bba596e1d550")
+	)
+	(wire
+		(pts
+			(xy 113.03 87.63) (xy 113.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ddcc36f-15f7-457d-bfe2-be4bf0a00c1d")
+	)
+	(wire
+		(pts
 			(xy 110.49 74.93) (xy 110.49 80.01)
 		)
 		(stroke
@@ -1817,6 +1843,26 @@
 			(type default)
 		)
 		(uuid "8fa1a222-562b-4064-8e5f-8323b5f07e0d")
+	)
+	(wire
+		(pts
+			(xy 110.49 87.63) (xy 113.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93408d11-972c-4bb3-9022-b019e44ae9c0")
+	)
+	(wire
+		(pts
+			(xy 113.03 87.63) (xy 115.57 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a20fc6-b8fb-4462-951b-1c5efb9c973e")
 	)
 	(wire
 		(pts
@@ -3587,6 +3633,73 @@
 			(project "uSlime_BNO085"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb6741c1-a73d-4785-8279-d5ddf589fc22")
+		(property "Reference" "#PWR017"
+			(at 104.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fed3b2f-6290-4674-b7fe-578bbfcc5a57")
+		)
+		(instances
+			(project "uSlime_BNO085"
+				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
