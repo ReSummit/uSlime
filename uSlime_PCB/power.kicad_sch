@@ -659,7 +659,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+			(property "Footprint" "uSlime-libs:D_0402_1005Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4313,7 +4313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "uSlime-libs:D_0402_1005Metric"
 			(at 67.31 71.12 0)
 			(effects
 				(font
@@ -4883,7 +4883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "uSlime-libs:D_0402_1005Metric"
 			(at 57.15 77.47 0)
 			(effects
 				(font
