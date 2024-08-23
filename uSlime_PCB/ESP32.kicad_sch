@@ -2096,6 +2096,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 82.55) (xy 139.7 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0722b54e-d0a6-440d-9b4c-8169a744a45d")
+	)
+	(wire
+		(pts
 			(xy 139.7 92.71) (xy 137.16 92.71)
 		)
 		(stroke
@@ -2246,6 +2256,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 80.01) (xy 143.51 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4e343c-5606-43c1-8867-4a05a8bd04b6")
+	)
+	(wire
+		(pts
 			(xy 210.82 124.46) (xy 210.82 121.92)
 		)
 		(stroke
@@ -2283,6 +2303,16 @@
 			(type default)
 		)
 		(uuid "7050926f-2ab0-4738-83d5-108e7dc7ff73")
+	)
+	(wire
+		(pts
+			(xy 143.51 80.01) (xy 143.51 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c85438-dd9b-47c7-b5ce-7c9f5027e1d0")
 	)
 	(wire
 		(pts
@@ -2903,7 +2933,7 @@
 	)
 	(global_label "BatSense"
 		(shape input)
-		(at 146.05 72.39 0)
+		(at 146.05 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2911,9 +2941,9 @@
 			)
 			(justify left)
 		)
-		(uuid "591e919b-a239-4d0e-b84d-09b5efe5d73d")
+		(uuid "29470aaa-d706-4482-a245-6c31cf74e675")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.7437 72.39 0)
+			(at 157.7437 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
