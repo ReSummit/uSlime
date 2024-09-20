@@ -1690,16 +1690,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 119.38) (xy 168.91 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43fdb437-7e7a-40b1-9c28-bcd063126b3c")
-	)
-	(wire
-		(pts
 			(xy 132.08 133.35) (xy 135.89 133.35)
 		)
 		(stroke
@@ -2684,7 +2674,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 168.91 119.38 270)
+		(at 168.91 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2692,7 +2682,7 @@
 		(dnp no)
 		(uuid "50c23986-be5c-481a-bb6c-26f4516062d4")
 		(property "Reference" "#PWR014"
-			(at 165.1 119.38 0)
+			(at 165.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2691,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 171.704 119.38 90)
+			(at 171.704 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +2700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 119.38 0)
+			(at 168.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 119.38 0)
+			(at 168.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +2718,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 168.91 119.38 0)
+			(at 168.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,73 +2733,6 @@
 			(project "uSlime_BNO085"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "uSlime:R_US")
-		(at 168.91 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62e5e84d-1154-4f05-810e-b0c2799b9cb9")
-		(property "Reference" "R5"
-			(at 172.466 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 172.466 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 169.926 110.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 168.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7fe99e8e-95bf-4db2-93f8-201454a8cf55")
-		)
-		(pin "1"
-			(uuid "1581f0a0-d37d-4687-be9c-b45364aa4c63")
-		)
-		(instances
-			(project "uSlime_BNO085"
-				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3347,6 +3270,73 @@
 			(project "uSlime_BNO085"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uSlime:R_US")
+		(at 181.61 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b79b4297-33da-40a0-b47c-21c387afa512")
+		(property "Reference" "R5"
+			(at 185.166 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 185.166 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 182.626 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 181.61 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1238357-19d0-4927-82b9-b96a103371b0")
+		)
+		(pin "1"
+			(uuid "52e369b6-d965-4f04-ba47-c03e2c05bc4a")
+		)
+		(instances
+			(project "uSlime_BNO085"
+				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
+					(reference "R5")
 					(unit 1)
 				)
 			)
