@@ -4446,7 +4446,7 @@
 			(justify top mirror)
 		)
 	)
-	(gr_text "v0.0.3a"
+	(gr_text "v0.0.4a"
 		(at 103.15 93 270)
 		(layer "B.SilkS")
 		(uuid "ae9d9799-f0a0-41a4-b2d6-5d06d7f5811b")
