@@ -554,4 +554,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "185b6e0a-3e59-4631-b265-55658268e4fe")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

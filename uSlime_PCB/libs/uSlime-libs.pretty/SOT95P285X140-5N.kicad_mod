@@ -344,4 +344,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "53249760-2e91-4cb7-9f9d-8e672af4968d")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

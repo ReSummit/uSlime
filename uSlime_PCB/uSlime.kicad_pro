@@ -518,7 +518,7 @@
       "plot": "uSlime-gbrs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "uSlime.step",
       "svg": "",
       "vrml": ""
     },
