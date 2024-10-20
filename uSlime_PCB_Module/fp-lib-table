@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "uSlime-libs")(type "KiCad")(uri "${KIPRJMOD}/libs/uSlime-libs.pretty")(options "")(descr ""))
+  (lib (name "Local_PCM_Espressif")(type "KiCad")(uri "${KIPRJMOD}/libs/Espressif.pretty")(options "")(descr ""))
+)
