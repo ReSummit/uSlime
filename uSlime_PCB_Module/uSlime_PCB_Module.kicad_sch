@@ -36,7 +36,7 @@
 			)
 		)
 		(instances
-			(project "uSlime"
+			(project "uSlime_PCB_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36"
 					(page "4")
 				)
@@ -74,7 +74,7 @@
 			)
 		)
 		(instances
-			(project "uSlime"
+			(project "uSlime_PCB_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36"
 					(page "3")
 				)
@@ -112,7 +112,7 @@
 			)
 		)
 		(instances
-			(project "uSlime"
+			(project "uSlime_PCB_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36"
 					(page "2")
 				)

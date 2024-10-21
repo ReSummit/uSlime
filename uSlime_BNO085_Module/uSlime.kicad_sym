@@ -1048,20 +1048,22 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J"
-			(at 0 7.62 0)
+		(property "Reference" "J1"
+			(at 2.54 1.2701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 0 -7.62 0)
+			(at 2.54 -1.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
@@ -1459,7 +1461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "uSlime-libs:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2882,8 +2884,8 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(property "Reference" "JP"
-			(at -2.54 -2.54 0)
+		(property "Reference" "JP1"
+			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2893,7 @@
 			)
 		)
 		(property "Value" "Jumper_3_Open"
-			(at 0 2.794 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
