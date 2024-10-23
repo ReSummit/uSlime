@@ -1531,6 +1531,18 @@
 		(uuid "2b326b22-55f9-4dc0-a2ca-82f33b1141a1")
 	)
 	(junction
+		(at 160.02 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30c9b9ed-9d46-4e83-844f-c3bd264d70a4")
+	)
+	(junction
+		(at 86.36 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "365f8ba6-07d4-48fc-a978-fed90a65d73d")
+	)
+	(junction
 		(at 86.36 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1561,6 +1573,12 @@
 		(uuid "b3d3334d-69dc-4c84-bdd3-ff28309a3adc")
 	)
 	(junction
+		(at 190.5 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcc7444e-e605-47be-ba51-da3f3fe4c1b7")
+	)
+	(junction
 		(at 166.37 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1573,16 +1591,18 @@
 		(uuid "f208902b-d81d-42e6-bd6a-2b1b8fc6593d")
 	)
 	(no_connect
-		(at 160.02 110.49)
-		(uuid "4fe21af0-1b2f-42fa-bf76-7fb69ecf40bb")
-	)
-	(no_connect
 		(at 160.02 80.01)
 		(uuid "dc5349a9-b06b-4931-8270-1fa4b4dcc3f0")
 	)
-	(no_connect
-		(at 160.02 107.95)
-		(uuid "dd08c5e0-6b63-4c56-863f-9b456d7bca5d")
+	(wire
+		(pts
+			(xy 203.2 77.47) (xy 190.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00af5d4e-49b8-459d-a04c-c4ed055201e4")
 	)
 	(wire
 		(pts
@@ -1626,6 +1646,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 110.49) (xy 160.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12aae5eb-fb75-4bf1-9b65-4941e0eb7e64")
+	)
+	(wire
+		(pts
+			(xy 86.36 110.49) (xy 93.98 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13756155-f036-44c4-847f-488885afb6da")
+	)
+	(wire
+		(pts
 			(xy 163.83 85.09) (xy 160.02 85.09)
 		)
 		(stroke
@@ -1656,16 +1696,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 110.49) (xy 115.57 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b959be-96c5-4090-bd11-28fa73373b7d")
-	)
-	(wire
-		(pts
 			(xy 181.61 95.25) (xy 181.61 97.79)
 		)
 		(stroke
@@ -1673,6 +1703,16 @@
 			(type default)
 		)
 		(uuid "25bf27f0-11c6-48aa-914d-e6121c4e5cab")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.65) (xy 160.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35651c81-023f-4a53-bbdf-5030c2b672ea")
 	)
 	(wire
 		(pts
@@ -1743,6 +1783,16 @@
 			(type default)
 		)
 		(uuid "487a6ad6-c24b-44e6-ae1b-1e058a28be2c")
+	)
+	(wire
+		(pts
+			(xy 101.6 110.49) (xy 115.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e85194-174a-4434-a518-393de5d79013")
 	)
 	(wire
 		(pts
@@ -1866,6 +1916,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 107.95) (xy 171.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbf3d4e-7908-4a27-9647-379eeae877ed")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.65) (xy 171.45 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f91b0e4-233b-4a82-a823-a617d93c89b1")
+	)
+	(wire
+		(pts
 			(xy 166.37 77.47) (xy 160.02 77.47)
 		)
 		(stroke
@@ -1916,6 +1986,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 102.87) (xy 86.36 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a465302e-0424-4e47-a85a-2c2f75ff4411")
+	)
+	(wire
+		(pts
+			(xy 160.02 138.43) (xy 203.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8691842-2180-418c-93be-2457307adfac")
+	)
+	(wire
+		(pts
 			(xy 166.37 73.66) (xy 166.37 77.47)
 		)
 		(stroke
@@ -1923,6 +2013,16 @@
 			(type default)
 		)
 		(uuid "a9ca66ad-a745-44f6-9d76-eb8be7b79dd3")
+	)
+	(wire
+		(pts
+			(xy 203.2 138.43) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e7ec5a-4fed-4d2c-ad4f-c95c49ca1bd5")
 	)
 	(wire
 		(pts
@@ -1953,6 +2053,16 @@
 			(type default)
 		)
 		(uuid "c3935de4-c3a1-4ceb-9545-ed7b37a88ba8")
+	)
+	(wire
+		(pts
+			(xy 171.45 107.95) (xy 171.45 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c650d987-7584-47e3-878d-fc915cca50ce")
 	)
 	(wire
 		(pts
@@ -2134,7 +2244,7 @@
 	)
 	(global_label "BNO_INT"
 		(shape input)
-		(at 107.95 110.49 180)
+		(at 107.95 110.49 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2144,7 +2254,7 @@
 		)
 		(uuid "c5eb8419-9274-40c8-ad4a-1babcbf4ef6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1633 110.49 0)
+			(at 107.95 121.2767 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,6 +2826,74 @@
 	)
 	(symbol
 		(lib_id "uSlime:R_US")
+		(at 97.79 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d3fee65-ed44-49f1-bc84-0b4bbb46509d")
+		(property "Reference" "R13"
+			(at 97.79 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 97.79 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 98.044 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 97.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "619f8df0-9a87-4c1b-9922-3e6261c6443c")
+		)
+		(pin "1"
+			(uuid "da0664b7-c28b-4d5c-b920-c81c5226269d")
+		)
+		(instances
+			(project ""
+				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uSlime:R_US")
 		(at 90.17 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2777,6 +2955,76 @@
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uSlime:R_US")
+		(at 160.02 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "764e3ac9-542f-47aa-80a7-a70eaf17c58f")
+		(property "Reference" "R14"
+			(at 162.56 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 162.56 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 161.036 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a1a3282-6752-4f5e-8a29-570ec3d2649c")
+		)
+		(pin "2"
+			(uuid "41bd7216-f1e0-4d09-be9a-697a90177b81")
+		)
+		(instances
+			(project ""
+				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3351,6 +3599,76 @@
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "uSlime:R_US")
+		(at 171.45 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca6dd9b1-968a-46f5-b6ea-95bd11092a8a")
+		(property "Reference" "R15"
+			(at 173.99 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 173.99 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 172.466 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59134419-104f-499b-8f6f-7493908848da")
+		)
+		(pin "2"
+			(uuid "0c081d43-df79-4db5-aa2d-21dc238b032f")
+		)
+		(instances
+			(project "uSlime"
+				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
+					(reference "R15")
 					(unit 1)
 				)
 			)
