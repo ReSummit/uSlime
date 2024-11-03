@@ -3148,7 +3148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40ad6fe3-13be-4a00-9040-de838c403f9e")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 200.66 69.85 0)
 			(effects
 				(font
@@ -3211,7 +3211,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56080666-6abb-4c6c-9b5c-9708a1e5f52f")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 133.096 77.47 90)
 			(effects
 				(font
@@ -3480,7 +3480,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3495,7 +3495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e8fa29b-c6b3-48e0-8346-6baf5acf51dd")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 116.586 87.63 90)
 			(effects
 				(font
@@ -3546,7 +3546,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -3627,7 +3627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ae06a62-5fd2-4420-802d-ea006a36d365")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 191.516 136.906 0)
 			(effects
 				(font
@@ -3681,7 +3681,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3762,7 +3762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "754ae677-3336-4069-90fc-4a66ae215108")
-		(property "Reference" "TP7"
+		(property "Reference" "TP8"
 			(at 164.592 112.776 0)
 			(effects
 				(font
@@ -3813,7 +3813,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
-					(reference "TP7")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -4079,7 +4079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "936b558d-9e2a-4e28-8761-ef49d333266f")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 229.87 76.2 90)
 			(effects
 				(font
@@ -4131,7 +4131,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4213,7 +4213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97401d3f-ddb0-4986-b8da-2bad245c2ced")
-		(property "Reference" "CN2"
+		(property "Reference" "CN1"
 			(at 85.09 21.5899 0)
 			(effects
 				(font
@@ -4276,7 +4276,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
-					(reference "CN2")
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -4291,7 +4291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6e8b0d0-aae3-4348-a0d0-892023f64cda")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 182.372 136.906 0)
 			(effects
 				(font
@@ -4345,7 +4345,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4822,7 +4822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6b1ab6d-632a-41bb-859a-809259d77b0e")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 157.48 81.2799 0)
 			(effects
 				(font
@@ -4876,7 +4876,7 @@
 		(instances
 			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/9141278c-15a6-43aa-8c9d-f1bdf7efadba"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
