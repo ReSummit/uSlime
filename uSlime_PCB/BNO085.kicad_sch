@@ -2858,7 +2858,7 @@
 			(uuid "da0664b7-c28b-4d5c-b920-c81c5226269d")
 		)
 		(instances
-			(project ""
+			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "R13")
 					(unit 1)
@@ -2996,7 +2996,7 @@
 			(uuid "41bd7216-f1e0-4d09-be9a-697a90177b81")
 		)
 		(instances
-			(project ""
+			(project "uSlime"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "R14")
 					(unit 1)

@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "U1"
-		(at 0.43869 2.42304 180)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c7d52c57-b8cd-4693-8ffd-e6dbc87559fd")
@@ -13,7 +13,6 @@
 				(size 0.65938 0.65938)
 				(thickness 0.1524)
 			)
-			(justify left bottom)
 		)
 	)
 	(property "Value" "BNO085"
@@ -187,8 +186,8 @@
 		(uuid "172ccbce-f016-41a5-b3e3-bdc5667f2028")
 	)
 	(fp_circle
-		(center -3.37145 -1.98306)
-		(end -3.37145 -1.85809)
+		(center -1.7 -0.9)
+		(end -1.7 -0.77503)
 		(stroke
 			(width 0.254)
 			(type solid)

@@ -988,22 +988,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J1"
-				(at 2.54 1.2701 0)
+			(property "Reference" "J"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "Conn_01x05"
-				(at 2.54 -1.2699 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
@@ -2766,7 +2764,7 @@
 			(uuid "62c843d3-4855-4798-879e-292fde462192")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "C3")
 					(unit 1)
@@ -2837,7 +2835,7 @@
 			(uuid "84a5d1ae-9b4a-4dbf-a0ca-a2bab62495c7")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "JP1")
 					(unit 1)
@@ -2973,7 +2971,7 @@
 			(uuid "f35e3687-61cc-4db0-809b-78b1e90de116")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR08")
 					(unit 1)
@@ -3040,7 +3038,7 @@
 			(uuid "1f40f718-aa2e-4488-9ff6-ce45e36a6103")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR013")
 					(unit 1)
@@ -3173,7 +3171,7 @@
 			(uuid "51c5b406-27b0-4976-8f76-4398fe3eb13a")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR06")
 					(unit 1)
@@ -3240,7 +3238,7 @@
 			(uuid "84f31d54-2754-41a3-bd5c-ae2619fbff6a")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR012")
 					(unit 1)
@@ -3306,7 +3304,7 @@
 			(uuid "453a27bf-9f86-4798-b30a-fb7050eed685")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR05")
 					(unit 1)
@@ -3372,7 +3370,7 @@
 			(uuid "f70041e9-e6b9-45b2-85b8-e48d9802de58")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR014")
 					(unit 1)
@@ -3574,7 +3572,7 @@
 			(uuid "1cbb571a-7991-4360-a4fb-f6e4a4758ca0")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "C1")
 					(unit 1)
@@ -3640,7 +3638,7 @@
 			(uuid "30ea2599-23e1-412b-aac7-3fdfdf091b71")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR02")
 					(unit 1)
@@ -3706,7 +3704,7 @@
 			(uuid "f2ad0cfe-a5e1-459a-ad52-b65a3b588494")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR01")
 					(unit 1)
@@ -3776,7 +3774,7 @@
 			(uuid "c9180934-2764-4cde-b21e-8007d28da301")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "R4")
 					(unit 1)
@@ -3843,7 +3841,7 @@
 			(uuid "9393dea3-097b-47d3-aa1a-be7e2e7cd672")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR011")
 					(unit 1)
@@ -3909,7 +3907,7 @@
 			(uuid "ba7fd323-8065-4c08-b6b5-3865de9a3680")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR04")
 					(unit 1)
@@ -4046,7 +4044,7 @@
 			(uuid "1d7ae131-cf5a-4a63-897d-025e6078fd5c")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR03")
 					(unit 1)
@@ -4180,7 +4178,7 @@
 			(uuid "8f438eb1-6832-4cb9-ba09-7d5a2716b493")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "R1")
 					(unit 1)
@@ -4250,7 +4248,7 @@
 			(uuid "7d11a34f-70e8-436c-9f61-00d7636fd3bd")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "R3")
 					(unit 1)
@@ -4316,7 +4314,7 @@
 			(uuid "86ddf301-2d4a-41ac-a815-b5bebd71cfa0")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR09")
 					(unit 1)
@@ -4383,7 +4381,7 @@
 			(uuid "9ca8475a-a7b1-4628-81ce-5e0e6b8b0f1e")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "C4")
 					(unit 1)
@@ -4453,7 +4451,7 @@
 			(uuid "fa2a5c7e-3678-4806-9027-f4ae2ac7c171")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "C2")
 					(unit 1)
@@ -4520,7 +4518,7 @@
 			(uuid "a3d4328b-8582-4fc9-bd08-27329590fbfc")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "R2")
 					(unit 1)
@@ -4668,7 +4666,7 @@
 			(uuid "c388a9fc-8647-4b55-884c-bc7b5dcbeaf9")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "U1")
 					(unit 1)
@@ -4734,7 +4732,7 @@
 			(uuid "4909ee0d-eaa2-4b35-855a-d85a7c2d0929")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "#PWR010")
 					(unit 1)
@@ -4812,7 +4810,7 @@
 			(uuid "d6729c69-6bb4-4035-905c-d09b4195f3d9")
 		)
 		(instances
-			(project ""
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "J1")
 					(unit 1)
@@ -4900,7 +4898,7 @@
 			(uuid "75dd6cc4-a592-4c39-805f-f0ecef50e948")
 		)
 		(instances
-			(project "uSlime_BNO085"
+			(project "uSlime_BNO085_Module"
 				(path "/f32c1c49-f803-4e7c-a530-6db148a7ba36/1072de81-ddaf-4115-9b1e-8b480e2a0117"
 					(reference "CN1")
 					(unit 1)
