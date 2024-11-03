@@ -3449,7 +3449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0402"
+		(property "Footprint" ""
 			(at -2.032 0 90)
 			(effects
 				(font
