@@ -2628,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 62.23) (xy 203.2 62.23)
+			(xy 210.82 62.23) (xy 203.2 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3235,6 +3235,17 @@
 		)
 		(uuid "d4c1ee5f-d70d-4784-bf7c-75bfc54a7af5")
 	)
+	(label "IO19/SCK"
+		(at 210.82 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd0811ee-c4f2-458f-9629-d694daf7801b")
+	)
 	(label "IO17/RX"
 		(at 137.16 115.57 0)
 		(fields_autoplaced yes)
@@ -3336,28 +3347,6 @@
 		(uuid "29470aaa-d706-4482-a245-6c31cf74e675")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.7437 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STAT"
-		(shape input)
-		(at 204.47 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e2e9617-6537-4475-b6f1-7ca28c659fc0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.6885 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +3974,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1k"
 			(at 200.6599 59.69 0)
 			(effects
 				(font
