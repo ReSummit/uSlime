@@ -59,5 +59,14 @@ In addition, due to the single-sided PCB layout, this is not technically as smal
 Lastly, it is known that the charger SMD compoenent tends to heat up rather quickly while charging the battery. This shouldn't reach the melting point of solder but it is worth mentioning; perhaps a more efficient IC would be better here.
 
 ## Images:
-<div><p float="left"> <img src="pics/pcb_front.png" width="49.5%" /> <img src="pics/pcb_back.png" width="49.5%" /> </p></div>
+<div><p float="left"> <img src="pics/pcb_front.png" width="56%" /> <img src="pics/pcb_back.png" width="42.5%" /> </p></div>
 
+## Footprints Used
+
+Some footprints and symbols were used from other sources:
+* ESP32-C6 Symbol: https://github.com/sparkfun/SparkFun_Thing_Plus_ESP32_C6
+* ESP32-C6 Footprint: https://github.com/espressif/kicad-libraries
+* BNO085 Footprint: Provided by Colin
+* AP2112K-3.3TRG1 and MCP73831T-2ACI/OT Symbol / Footprint: From a class project :)
+* MHT150RGBCT Footprint: Converted from EasyEDA
+* JST ZH Pinout: Same as SlimeVR PCB :D
